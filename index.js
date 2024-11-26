@@ -6,7 +6,6 @@ import session from 'express-session';
 import cookieParser from 'cookie-parser';
 
 
-
 const app = express();
 
 app.use(session({
@@ -30,7 +29,9 @@ app.use(cookieParser());
 
 app.use(express.urlencoded({ extended: true }));
 
-app.use(express.static('./paginas/publica'));
+import path from "path";
+
+app.use(express.static(path.join(process.cwd(), './paginas/publica')));
 
 const porta = 3000;
 const host = '0.0.0.0';
