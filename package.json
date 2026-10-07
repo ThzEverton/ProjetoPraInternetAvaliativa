@@ -1,5 +1,5 @@
 {
-  "name": "Atividade-Pratica",
+  "name": "cadastro-produtos-sessao",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -26,5 +26,6 @@
   "devDependencies": {
     "nodemon": "^3.1.7"
   },
-  "description": ""
+  "description": "",
+  "private": true
 }
