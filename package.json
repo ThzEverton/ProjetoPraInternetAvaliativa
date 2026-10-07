@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThzEverton/Atividade-Pratica-.git"
+    "url": "git+https://github.com/ThzEverton/ProjetoPraInternetAvaliativa.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ThzEverton/Atividade-Pratica-.git"
+    "url": "https://github.com/ThzEverton/ProjetoPraInternetAvaliativa/issues"
   },
-  "homepage": "https://github.com/ThzEverton/Atividade-Pratica-.git",
+  "homepage": "https://github.com/ThzEverton/ProjetoPraInternetAvaliativa#readme",
   "dependencies": {
     "cookie-parser": "^1.4.7",
     "express": "^4.21.1",
@@ -26,6 +26,6 @@
   "devDependencies": {
     "nodemon": "^3.1.7"
   },
-  "description": "",
+  "description": "Projeto acadêmico em Node.js com sessões, cookies e cadastro de produtos.",
   "private": true
 }
